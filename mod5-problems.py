@@ -11,8 +11,8 @@ the_string = ("Yurlok of Scorch Thrash")
 for char in the_string:
     print(char.upper())
 #3. Use a for loop and the range() function to print all even numbers from 2 to 20.
-for int in range(2, 21, 2):
-    print(int)
+for x in range(2, 21, 2):
+    print(x)
 #4. Use nested for loops to create a simple multiplication table for numbers 1 through 5. Format your output so that each row corresponds to multiplying by a specific number.
 for i in range(1, 6):
     for j in range(1, 6):
